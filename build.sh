@@ -13,7 +13,7 @@ RELEASE="$(rpm -E %fedora)"
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-rpm-ostree install cosmic-app-library cosmic-applets cosmic-bg cosmic-comp cosmic-config-fedora cosmic-edit cosmic-files cosmic-greeter cosmic-icon-theme cosmic-idle cosmic-launcher cosmic-notifications cosmic-osd cosmic-panel cosmic-screenshot cosmic-session cosmic-settings cosmic-settings-daemon cosmic-store cosmic-store cosmic-term cosmic-workspaces initial-setup-gui-wayland-cosmic xdg-desktop-portal-cosmic
+rpm-ostree install fastfetch arp-scan input-remapper cosmic-app-library cosmic-applets cosmic-bg cosmic-comp cosmic-config-fedora cosmic-edit cosmic-files cosmic-greeter cosmic-icon-theme cosmic-idle cosmic-launcher cosmic-notifications cosmic-osd cosmic-panel cosmic-screenshot cosmic-session cosmic-settings cosmic-settings-daemon cosmic-store cosmic-store cosmic-term cosmic-workspaces initial-setup-gui-wayland-cosmic xdg-desktop-portal-cosmic
 
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
